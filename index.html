@@ -4,27 +4,73 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Document</title>
+    <style>
+        #imgcontain{
+            background-image: url(images/background.jpg);
+            background-size: cover;
+           box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+            height: 100vh;
+        }
+        button{
+            background-color: #903cff;
+            border-radius: 10px;
+        }
+        .purple{
+            color: #903cff;
+        }
+        h4 {
+            color: white;
+        }
+    </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div id="imgcontain">
+        <div class="container d-flex flex-column align-items-center justify-content-center text-center h-100">
+           <h4>Promote Your Online Course Like A Pro</h4>
+            <span class="purple">{<span class="white">DevCourse</span>}</span>
+            <h2>A Course Landing Page Template For Developers</h2>
+            <button>Start Learning Now</button>  
+        </div>
+          
+    </div>
+
+    
+
+    <div>
+        <nav class="navbar fixed-bottom navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
+          <a class="navbar-brand d-lg-none" href="#">DevCourse</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav me-auto mb-5 mb-lg-0 justify-content-around w-100">
               <li class="nav-item">
-                <a class="nav-link active" href="#">Home</a>
+                <a class="nav-link active" href="#">Content</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="#">Link</a>
+                <a class="nav-link active" href="#">Requirments</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Tutor</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Reviews</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">FAQ</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
+    </div>
+        
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
 </html>
